@@ -1,0 +1,79 @@
+body { font-family:"微软雅黑"; margin-top:70px; padding:0; border: none;}
+* { border: none; padding:0; margin:0; list-style: none;}
+
+.myNav { padding:7px 0 8px 0;}
+.logo { float:left;}
+.logo a { display: block; text-decoration: none; color: #ff0066; margin-right:50px;}
+.logo .span1 { font-size: 2.25em; font-weight: 200;}
+.logo .span2 { color:#fff; font-size: 1em; font-weight: 100;}
+.top-menu { margin-top:5px;}
+.btn1 { margin:0; padding:0;}
+.banner { position:relative; width:100%; }
+.pot { position: absolute; width:80px; height:15px; left:50%; top:90%; margin-left:-40px;}
+.pot li { margin-right:5px; float:left;}
+.pot li a { display:block; background: rgb(48, 48, 48); border-radius:15px; width:15px; height:15px; }
+.btnLeft { display:none; position: absolute; left:8%; top:50%; margin-left:-25px; border-radius:40px 0 0 40px; text-align:center; line-height:80px; margin-top:-40px; background:rgba(0,0,0,.2); font-size:36px; width:50px;}
+.btnLeft a { color:rgba(250,250,250,0.7); text-decoration:none;}
+.right10 { left:92%!important; border-radius:0 40px 40px 0;}
+.potR { background:#ff0066!important;}
+.span3 { color:#ff0066; padding-right:20px; font-size:24px;}
+.tit1 { padding-bottom:20px; font-weight: bold; text-align: center; }
+.works { background: rgba(231, 223, 232, 0.3);}
+.recommend { padding-bottom:10px; background: url(../img/recommengbg.gif) left bottom repeat-x;}
+.love-text { padding-left:20px;}
+.love-text-mark { font-size:30px;;}
+.intro-img { margin:10px 0 20px 0;}
+.footer { margin-top:60px; padding:20px 0; background:#222; color: #f7f7f7;}
+.small-sun-h4 { color:#ff0066; font-size: 1.75em; font-weight: 600;}
+.small-sun-cont { background: url(../img/recommengbg.gif) right top repeat-y;}
+.cat { padding-top:50px;}
+.cat-bg { background:rgba(236,253,254,.6)}
+.cont-bg { background:#fff; }
+/* works */
+.works-list { margin-top:20px;}
+
+@media (max-width: 1440px) {
+    .works-banner { height:360px;}
+}
+@media (max-width: 1366px) {
+    .works-banner { height:360px;}
+@media (max-width: 1080px) {
+    .works-banner { height:260px;}
+}
+@media (max-width: 911px) {
+    .works-banner { height:230px;}
+    .pot { position: absolute; left:50%; top:90%; margin-left:-40px;}
+    .pot li { margin-right:5px; float:left;}
+    .pot li a { display:block; background: rgb(48, 48, 48); border-radius:15px; width:12px; height:12px; }
+    .btnLeft { position: absolute; left:7%; top:50%; margin-left:-20px; border-radius:35px 0 0 35px; text-align:center; line-height:70px; margin-top:-35px; background:rgba(0,0,0,.2);  font-size:36px; width:40px;}
+    .btnLeft a { color:rgba(250,250,250,0.7); text-decoration:none;}
+    .right10 { left:93%!important; border-radius:0 35px 35px 0;}
+}
+}
+@media (max-width: 640px) {
+    .works-banner { height:180px;}
+    .pot { position: absolute; left:50%; top:90%; margin-left:-30px;}
+    .pot li { margin-right:4px; float:left;}
+    .pot li a { display:block; background: rgb(48, 48, 48); border-radius:15px; width:10px; height:10px; }
+    .btnLeft { position: absolute; left:6%; top:50%; margin-left:-15px; border-radius:30px 0 0 30px; text-align:center; line-height:60px; margin-top:-30px; background:rgba(0,0,0,.2);  font-size:28px;width:35px;}
+    .btnLeft a { color:rgba(250,250,250,0.7); text-decoration:none;}
+    .right10 { left:94%!important; border-radius:0 30px 30px 0;}
+}
+@media (max-width: 540px) {
+    .works-banner { height:150px;}
+    .pot { position: absolute; left:50%; top:90%; margin-left:-20px;}
+    .pot li { margin-right:3px; float:left;}
+    .pot li a { display:block; background: rgb(48, 48, 48); border-radius:15px; width:8px; height:8px; }
+    .btnLeft { position: absolute; left:7%; top:50%; margin-left:-10px; border-radius:25px 0 0 25px; text-align:center; line-height:50px; margin-top:-25px; background:rgba(0,0,0,.1);  font-size:24px;width:30px;}
+    .btnLeft a { color:rgba(250,250,250,0.7); text-decoration:none;}
+    .right10 { left:93%!important; border-radius:0 25px 25px 0;}
+}
+@media (max-width: 360px) {
+    .works-banner { height:100%;}
+    .pot { position: absolute; left:50%; top:90%; margin-left:-10px;}
+    .pot li { margin-right:2px; float:left;}
+    .pot li a { display:block; background: rgb(48, 48, 48); border-radius:15px; width:6px; height:6px; }
+    .btnLeft { position: absolute; left:5%; top:50%; margin-left:-5px; border-radius:20px 0 0 20px; text-align:center; line-height:40px; margin-top:-15px; background:rgba(0,0,0,.2);  font-size:14px;width:20px;}
+    .btnLeft a { color:rgba(250,250,250,0.7); text-decoration:none;}
+    .right10 { left:92%!important; border-radius:0 20px 20px 0;}
+}
